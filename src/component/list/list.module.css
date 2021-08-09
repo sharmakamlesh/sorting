@@ -1,0 +1,35 @@
+.listDetails , .listHeader {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+}
+
+.listHeader {
+    margin: 2rem auto 0 auto;
+    background: #5A6587;
+    padding: 1rem 0;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.listHeader span {
+    font-weight: 800;
+}
+
+.listDetails {
+    padding: 1rem 0;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.listDetails:nth-last-child(even) {
+    background: #D9E5E8;
+}
+
+.listDetails span {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
